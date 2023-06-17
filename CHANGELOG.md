@@ -4,6 +4,50 @@
 
 - All LXC instances created using this repository come pre-installed with Midnight Commander, which is a command-line tool (`mc`) that offers a user-friendly file and directory management interface for the terminal environment.
 
+## 2023-06-16
+
+### Changed
+
+- **Proxmox VE Monitor-All**
+  - Skip instances based on onboot and templates. [8c2a3cc](https://github.com/tteck/Proxmox/commit/8c2a3cc4d774fa13d17f695d6bdf9a4deedb1372). 
+
+## 2023-06-12
+
+### Changed
+
+- **Proxmox VE Edge Kernel**
+  - Removed, with the Proxmox opt-in kernels and the upcoming Proxmox Virtual Environment 8, edge kernels are no longer needed.
+- **Proxmox VE Kernel Clean**
+  - Now compatible with PVE8.
+
+## 2023-06-11
+
+### Changed
+
+- **Proxmox VE Post Install**
+  - Now compatible with both Proxmox Virtual Environment 7 (PVE7) and Proxmox Virtual Environment 8 (PVE8). 
+
+## 2023-06-02
+
+### Changed
+
+- **Proxmox VE 7 Post Install**
+  - In a non-clustered environment, you can choose to disable high availability, which helps save system resources.
+
+## 2023-05-27
+
+### Changed
+
+- **Proxmox VE 7 Post Install**
+  - If an Intel N-series processor is detected, ~the script provides options to install both the Proxmox 6.2 kernel and the Intel microcode.~ and using PVE7, recommend using PVE8
+
+## 2023-05-23
+
+### Changed
+
+- **OpenWrt VM**
+  - NEW Script
+
 ## 2023-05-17
 
 ### Changed
